@@ -12,11 +12,9 @@ public class Comparador_Numeros {
 
         if (num1 > num2) {
             System.out.println("O número " + num1 +  " é maior.");
-        } else {
+        } else if (num2 > num1){
             System.out.println("O número " + num2 +  " é maior.");
-        }
-
-        if (num1 == num2) {
+        } else {
             System.out.println("Os números são iguais.");
         }
         leitor.close();
